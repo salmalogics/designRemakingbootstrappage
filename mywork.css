@@ -1,0 +1,75 @@
+#b1,#b2,#b3,#b4,#b5{
+    border-color: rgb(54, 52, 52);
+    
+}
+#head1{
+    text-shadow: rgb(49, 44, 44);
+    margin-left: 550px;
+    color: white;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+
+}
+#head3{
+    text-shadow: rgb(49, 44, 44);
+    margin-left: 550px;
+    /* margin-top: 210px; */
+    color: rgb(242, 238, 238);
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+/* #div2{  */
+    /* position: relative;
+    text-align: center;
+    background-image:url(tree.png);
+    height: 1000px;
+    width: 1550px;
+    background-repeat:no-repeat; */
+    /* style="background-image: url(tree.png) ;" */
+
+/* } */
+#form{
+    background-image: url("bootstrapsimgs\bg-3.jpg");
+}
+/* #a{
+    margin-left: 20px;
+
+} */
+
+body {
+    overflow-x: hidden;
+  }
+ #i1 {
+    width:1200px ;
+    height: 400;
+    border: none;
+    background-position: center center;
+  } 
+
+  #div3{
+    margin-top: 120px;
+  }
+  p{
+    font-size: 12px;
+    line-height: 1.6em;
+    margin: 0;
+  }
+  #grids{
+    
+    /* background-color: rgba(249, 242, 242, 0.439); */
+    margin-top: 120px;
+    margin-left: 231px;
+  }
+  #b11,#b12,#b13{
+   margin-left: 90px;
+  }
+  #img11,#img12{
+    width: 300px;
+  }
+  #img13{
+    width: 255px;
+    height: 150px;
+  }
+  /* #div11,#div12,#div13{
+    background-color:rgb(225, 222, 222) ;
+  }
+   */
