@@ -1,0 +1,145 @@
+<html>
+
+<head>
+    <title>
+        SURVEY
+    </title>
+</head>
+
+<body background="imageweb.jpg" style="background-repeat: no-repeat;background-size:100%;">
+
+    <div style="background-color: blue;height: 25px;">
+
+        <input type="button" value="ADD"
+            style="color: rgb(246, 243, 243);font-family: Georgia, 'Times New Roman', Times, serif;background-color: blue;;">
+
+        <input type="button" value="VIEW"
+            style="color:rgb(247, 242, 242) ;font-family: Georgia, 'Times New Roman', Times, serif;background-color: blue;">
+
+        <label for="loggin" style="color:white;">Logged in as Rahul@gmail.com</label>
+
+        <input type="button" value="LOGOUT"
+            style="color: rgb(246, 244, 244);font-family: Georgia, 'Times New Roman', Times, serif;background-color: blue;"><br>
+
+    </div>
+    <center>
+        <h3>SURVEY FORM</h3>
+    </center>
+
+    <form action="" method="post" name="survayform" onsubmit="return validate()">
+        <center>
+            <div style="background-color: white; width: 600px;height: 520px;">
+                <table align="center" cellspacing="10">
+                    <tr>
+                        <td colspan="2" align="center">
+                            <h5>Let us how to know we can improve</h5>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="name">Name</el>
+                        </td>
+                        <td><input type="text" name="" id="" placeholder="Enter your Name " required></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="email">Email</label></td>
+                        <td><input type="text" name="" id="" placeholder="Enter your Email" required></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="age">Age</label></td>
+                        <td><input type="text" name="" id="" placeholder="Enter your Age" required></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="r">Which option best describes your current role?</label></td>
+                        <td><input list="roles" name="student" placeholder="Student">
+                            <datalist id="roles">
+                                <option value="Student"></option>
+                                <option value="Employee"></option>
+                                <option value="jobseeker"></option>
+                                <option value="Home maker"></option>
+                            </datalist>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="recomment">How likely is that you would recommend this<br> program
+                                to a friend ?</label></td>
+                        <td>
+                            <input type="radio" name="recomments" id=""><label for="">Definitely</label><br>
+                            <input type="radio" name="recomments" id=""><label for="">Maybe</label><br>
+                            <input type="radio" name="recomments" id=""><label for="">NOt sure</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="likes">What do you like most here</label></td>
+                        <td>
+                            <select name="likes" id="">
+
+                                <option value="read" style="font-family:'Times New Roman', Times, serif ;">Reading
+                                </option>
+
+                                <option value="write" style="font-family:'Times New Roman', Times, serif;">Writing
+                                </option>
+
+                                <option value="Drowing" style="font-family:'Times New Roman', Times, serif;">Drowing
+                                </option>
+
+                                <option value="swimming" style="font-family:'Times New Roman', Times, serif;">Swimming
+                                </option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="future">Things that should improved in the future<br>(Check all
+                                that apply)</label></td>
+                        <td>
+                            <input type="checkbox" name="" value=""><label for="">Front-End projectes</label><br>
+                            <input type="checkbox" name="" value=""><label for="">Back -End projectes</label><br>
+                            <input type="checkbox" name="" value=""><label for="">Data Visualization</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="comments" >Any Comments or Suggestions..?</label></td>
+                        <td><textarea name="" id="" cols="30" rows="2"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2">
+                            <input type="submit" value="SUBMIT"
+                                style="color: rgb(241, 240, 240);margin-left: 40px;font-family: Georgia, 'Times New Roman', Times, serif;background-color: rgb(78, 38, 222);border-color: white;-radius: 15px 15px;width: 142px;
+                                height: 30px;">
+                        </td>
+                    </tr>
+
+
+
+                </table>
+            </div>
+        </center>
+    </form>
+
+
+
+
+    <script>
+
+        function validate() {
+            var name=document.forms['survayform']['name'].value;
+
+            // if (name=="") {
+                
+            //     alert("please enter your name");
+            //     return false;
+
+            // } else if{
+                
+            // }
+
+            
+        }
+    </script>
+
+</body>
+
+</html>
